@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#88e45e"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="Just Java"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            />
+        <!-- Quantity View -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-5"
+                android:layout_marginRight="8dp"
+                android:onClick="decrementby5"/>
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="-"
+                android:onClick="decrement"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/quantity"
+                android:textColor="#aaaaaa"
+                android:text="1"
+                android:padding="16dp"
+                />
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="+"
+                android:onClick="increment"/>
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+5"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:onClick="incrementby5"/>
+        </LinearLayout>
+        <!-- Prize View -->
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Toppping :"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chocolate"
+                android:id="@+id/chocolateCheckBox"
+                android:onClick="onCheckBoxClicked"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Creamer"
+                android:id="@+id/creamerCheckBox"
+                android:onClick="onCheckBoxClicked"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prize"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/prize"
+                android:textColor="#aaaaaa"
+                android:text="Rp. 4000 ,-"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:text="Order"
+                android:onClick="orderButton"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="IAK3 @Garisdev" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:text="Made by: Ahmad Suhaendi" />
+    </LinearLayout>
+
+</LinearLayout>
