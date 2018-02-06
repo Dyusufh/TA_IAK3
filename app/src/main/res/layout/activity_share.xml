@@ -3,56 +3,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="8dp"
+    android:orientation="vertical"
     android:weightSum="12"
     tools:context="ml.himpunan.ta_iak3.Share">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="11"
         android:gravity="center"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="9"
             android:orientation="vertical">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Share"
-                android:textSize="24dp"
                 android:textColor="#74c255"
-                android:textStyle="bold"/>
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/catatan"
+                android:layout_marginBottom="48dp"
                 android:background="#74c255"
-                android:textColor="#fff"
-                android:layout_marginBottom="48dp"/>
+                android:text="@string/catatan"
+                android:textColor="#fff" />
 
 
         </LinearLayout>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This project is open source"/>
+            android:text="This project is open source" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find the source at"/>
+
         <TextView
             android:id="@+id/shareGitHub"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:autoLink="web"
             android:gravity="center"
-            android:text="@string/github"
-            android:autoLink="web"/>
+            android:text="@string/github" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="bottom"
         android:orientation="horizontal">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"

@@ -3,43 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:layout_margin="8dp"
     android:gravity="bottom"
+    android:orientation="vertical"
     tools:context="ml.himpunan.ta_iak3.Notes">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="9"
         android:orientation="vertical">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Catatan"
-            android:textSize="24dp"
             android:textColor="#74c255"
-            android:textStyle="bold"/>
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/catatan"
+            android:layout_marginBottom="48dp"
             android:background="#74c255"
-            android:textColor="#fff"
-            android:layout_marginBottom="48dp"/>
+            android:text="@string/catatan"
+            android:textColor="#fff" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/isi_catatan"
-            android:layout_marginBottom="24dp"/>
+            android:layout_marginBottom="24dp"
+            android:text="@string/isi_catatan" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/kesan"
-            android:layout_marginBottom="8dp"/>
+            android:layout_marginBottom="8dp"
+            android:text="@string/kesan" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/pesan"/>
+            android:text="@string/pesan" />
 
     </LinearLayout>
 
@@ -47,8 +53,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"
-        android:gravity="bottom">
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
