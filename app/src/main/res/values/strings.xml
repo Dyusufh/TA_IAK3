@@ -14,6 +14,6 @@
         3. Tugas Akhir"</string>
     <string name="kesan">Kesan : Baik, dengan adanya kelas offline jadi tidak cuma ngobrol sama leptop. jadi tidak bosan. Untuk materi sama persis dengan yang ada di udacity, tapi karena tidak semua orang langsung bisa mengerti hanya dari video, kelas ini memudahkan pembelajaran bagi yang kesulitan memahami isi video course</string>
     <string name="pesan">Pesan : Akan lebih baik kalau di setiap kota diadakan kelas, karena banyak yang dari luar kota</string>
-    <string name="github">find the project at
-        http://github.com/ahmad-su/TA_IAK3/</string>
+    <string name="github">"find the source at
+        http://github.com/ahmad-su/TA_IAK3/"</string>
 </resources>
