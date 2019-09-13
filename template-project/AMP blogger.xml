@@ -12,29 +12,29 @@
 <link expr:href='data:blog.url' rel='canonical'/>
 <b:if cond='data:blog.pageType == &quot;archive&quot;'>
 <!-- Archive Page Title -->
-<title><data:blog.title> <data:blog.pageName/></title>
+<title><data:blog.title/> <data:blog.pageName/></title>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 <b:if cond='data:blog.searchQuery'>
 <!-- Search Page Title -->
-<title><data:blog.searchQuery/> : <data:blog.title></title>
+<title><data:blog.searchQuery/> : <data:blog.title/></title>
 <meta expr:content='data:blog.searchQuery + &quot;:&quot; + data:blog.title' property='og:title'/>
 </b:if>
 <b:if cond='data:blog.searchLabel'>
 <!-- Label Page Title -->
-<title><data:blog.searchLabel/> | <data:blog.title></title>
+<title><data:blog.searchLabel/> | <data:blog.title/></title>
 <meta expr:content='data:blog.searchLabel + &quot; | &quot; + data:blog.title' property='og:title'/>
 </b:if>
 <b:if cond='data:blog.searchQuery == &quot;&quot;'>
 <b:if cond='data:blog.searchLabel == &quot;&quot;'>
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
 <!-- Homepage Title -->
-<title><data:blog.title></title>
+<title><data:blog.title/></title>
 <meta content='kesitu' property='og:title'/>
 <b:else/>
-<title><data:blog.title></title>
+<title><data:blog.title/></title>
 <!-- Index PageType -->
-<meta content='<data:blog.title>' property='og:title'/>
+<meta content='<data:blog.title/>' property='og:title'/>
 </b:if>
 </b:if>
 </b:if>
@@ -46,14 +46,14 @@
 <title><data:blog.pageName/></title>
 <b:else/>
 <!-- Post or Static page with a shorter Title displays the Blog Title Too -->
-<title><data:blog.pageName/> | <data:blog.title></title>
+<title><data:blog.pageName/> | <data:blog.title/></title>
 </b:if>
 <meta expr:content='data:blog.pageName + &quot; | &quot; + data:blog.title' property='og:title'/>
 <meta content='article' property='og:type'/>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;error_page&quot;'>
 <!--Error Title-->
-<title><data:messages.theresNothingHere/> | <data:blog.title></title>
+<title><data:messages.theresNothingHere/> | <data:blog.title/></title>
 <meta expr:content='data:messages.theresNothingHere' property='og:title'/>
 </b:if>
 <!-- description and Open Graph description -->
@@ -74,7 +74,7 @@
 </b:if>
 </b:if>
 </b:if>
-<meta content='<data:blog.title>' itemprop='name'/>
+<meta content='<data:blog.title/>' itemprop='name'/>
 <!--
     <meta content='https://3.bp.blogspot.com/-fqoGqlEPyTM/WX652wY4xfI/AAAAAAAABnk/Rp8CnVaPBoo_EoXbjc6yIGkzDhLb3cUpQCLcBGAs/s1600/plantilla-de-blogger-gratis-en-amp-html.jpg' itemprop='image'/>
     <meta content='Luis Chávez' name='Author'/>
@@ -2743,7 +2743,7 @@ td.tr-caption{font-size:87%}
     <div class='header-content row'>
       <div class='header-logo'>
         <b:section id='header' maxwidgets='1' showaddelement='yes'>
-          <b:widget id='Header1' locked='true' title='<data:blog.title> (cabecera)' type='Header' version='1'>
+          <b:widget id='Header1' locked='true' title='<data:blog.title/> (cabecera)' type='Header' version='1'>
             <b:widget-settings>
               <b:widget-setting name='displayUrl'>https://2.bp.blogspot.com/-UkxGJiDCiJg/WX6YgX8QYTI/AAAAAAAABnU/LtWqLhsy_TsQBOI6Kq0OY0LOvZUU7__TwCLcBGAs/s1600/amp-html-template-blogger.png</b:widget-setting>
               <b:widget-setting name='displayHeight'>100</b:widget-setting>
