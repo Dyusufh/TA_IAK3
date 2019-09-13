@@ -56,11 +56,11 @@
 <title><data:messages.theresNothingHere/> | <data:blog.title></title>
 <meta expr:content='data:messages.theresNothingHere' property='og:title'/>
 </b:if>
-<!-- description and og description -->
+<!-- description and Open Graph description -->
 <b:if cond='data:blog.metaDescription or data:view.description'>
 <b:if cond='data:blog.url == data:blog.homepageUrl or data:blog.pageType == &quot;item&quot; or data:blog.pageType == &quot;static_page&quot;'>
 <b:if cond='data:blog.url == data:blog.homepageUrl'>
-<meta content='Páginas Móviles Aceleradas (AMP) en Blogger.' name='description'/>
+<meta content='Sticky Note for Bloggers' name='description'/>
 <b:else/>
 <b:if cond='data:blog.metaDescription != &quot;&quot;'>
 <meta expr:content='data:blog.metaDescription' name='description'/>
@@ -75,7 +75,8 @@
 </b:if>
 </b:if>
 <meta content='<data:blog.title>' itemprop='name'/>
-<meta content='https://3.bp.blogspot.com/-fqoGqlEPyTM/WX652wY4xfI/AAAAAAAABnk/Rp8CnVaPBoo_EoXbjc6yIGkzDhLb3cUpQCLcBGAs/s1600/plantilla-de-blogger-gratis-en-amp-html.jpg' itemprop='image'/>
+<!--
+    <meta content='https://3.bp.blogspot.com/-fqoGqlEPyTM/WX652wY4xfI/AAAAAAAABnk/Rp8CnVaPBoo_EoXbjc6yIGkzDhLb3cUpQCLcBGAs/s1600/plantilla-de-blogger-gratis-en-amp-html.jpg' itemprop='image'/>
     <meta content='Luis Chávez' name='Author'/>
     <meta content='ayudadeblogger@gmail.com' name='Email'/>
     <meta content='INGRESE AQUI EL ID DE GOOGLE SEARCH CONSOLE' name='google-site-verification'/>
@@ -101,6 +102,7 @@
     <meta content='Ecuador' name='geo.country'/>
     <meta content='global' name='distribution'/>
     <meta content='Quito' name='geo.placename'/>
+    -->
 
 <!-- Metas para Facebook -->
 <meta expr:content='data:blog.pageName' property='og:title'/>
@@ -111,29 +113,35 @@
 <meta expr:content='data:blog.postImageUrl' property='og:image'/>
 <meta content='1200' property='og:image:width'/>
 <meta content='630' property='og:image:height'/>
+<!-->
 <b:else/>
 <meta content='https://3.bp.blogspot.com/-fqoGqlEPyTM/WX652wY4xfI/AAAAAAAABnk/Rp8CnVaPBoo_EoXbjc6yIGkzDhLb3cUpQCLcBGAs/s1600/plantilla-de-blogger-gratis-en-amp-html.jpg' property='og:image'/>
+-->
 </b:if>
+<!--
 <meta content='256095977843225' property='fb:app_id'/>
 <meta content='1170995356' property='fb:admins'/>
-<!-- Fin Metas para Facebook -->
+-->
+<!-- End Facebook Meta -->
 
-<!--Datos estructurados-->
+<!--Structured Data-->
 
-<!-- Enlaces al sitio-->
+<!-- Links to the site-->
+<!-->
 <script type='application/ld+json'>
 {
   &quot;@context&quot;: &quot;https://schema.org&quot;,
   &quot;@type&quot;: &quot;WebSite&quot;,
-  &quot;name&quot;: &quot;Plantilla Amp en Blogger&quot;,
-  &quot;alternateName&quot;: &quot;Plantilla Amp en Blogger&quot;,
-  &quot;url&quot;: &quot;https://ampdompi.blogspot.com/&quot;
+  &quot;name&quot;: &quot;Kesitu Note&quot;,
+  &quot;alternateName&quot;: &quot;Kesitu Note&quot;,
+  &quot;url&quot;: &quot;https://about:blank/&quot;
 }
 </script>
-<!-- Fin enlaces al sitio-->
+-->
+<!-- End Links to the site-->
 
-<!--Datos -->
-
+<!--Data-->
+<!-->
 <script type='application/ld+json'>
 {
   &quot;@context&quot;: &quot;https://schema.org&quot;,
@@ -146,9 +154,11 @@
   }]
 }
 </script>
-<!--Fin datos estructurados-->
+-->
+<!--End of Structured Data-->
 
-<!--Links paginas Sociales-->
+<!--Social Page Links-->
+<!--
 <script type='application/ld+json'>
 {
   &quot;@context&quot;: &quot;http://schema.org&quot;,
@@ -162,10 +172,11 @@
   ]
 }
 </script>
-
-<!--Fin Paginas Sociales-->
+-->
+<!--End of Social Page Links-->
 
 <!--Meta logo-->
+<!--
 <script type='application/ld+json'>
 {
   &quot;@context&quot;: &quot;https://schema.org&quot;,
@@ -174,16 +185,17 @@
   &quot;logo&quot;: &quot;https://3.bp.blogspot.com/-GBLCbSXUnZY/WZIKsi5A3tI/AAAAAAAAQfs/jEUur_3S6WsROtQ1WvA3QOva2GDLqd7jQCLcBGAs/s1600/plantillas-de-blogger-en-amp-html.jpg&quot;
 }
 </script>
-<!--Fin Meta logo -->
+-->
+<!--End of Meta logo -->
 
-<meta content='#ffffff' name='msapplication-TileColor'/>
-<meta content='#ffffff' name='theme-color'/>
+<meta content='#FF5252' name='msapplication-TileColor'/>
+<meta content='#FF5252' name='theme-color'/>
 
 
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
 <title><data:blog.pageTitle/></title> 
 <b:else/>
-<title><data:blog.pageName/> ~ <data:blog.title/></title>
+<title><data:blog.pageName/> | <data:blog.title/></title>
 </b:if>
 
 <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css' rel='stylesheet'/>
@@ -204,7 +216,9 @@
 <script async='async' custom-element='amp-social-share' src='https://cdn.ampproject.org/v0/amp-social-share-0.1.js'/>
 </b:if>
 <b:if cond='data:blog.pageType in {&quot;static_page&quot;}'>
-
+<!--
+<script async='async' custom-element='amp-social-share' src='https://cdn.ampproject.org/v0/amp-social-share-0.1.js'/> 
+-->
 </b:if>
 
 
