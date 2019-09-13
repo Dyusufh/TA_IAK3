@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<HTML amp='amp' lang='es'>
+<HTML amp='amp' lang='en'>
 &lt;head&gt;
 <meta charset='utf-8'/>
 <meta content='width=device-width,minimum-scale=1,initial-scale=1' name='viewport'/>
@@ -514,10 +514,10 @@ background-color: #FFF;
     border-radius: 50%;
     border: none;
     outline: 0;
-    background: #4285f4;
+    background: #009688;
     z-index: 9999;
-    bottom: 30px;
-    right: 10px;
+    bottom: 20px;
+    right: 20px;
     position: fixed;
     opacity: 0;
     visibility: hidden;
@@ -895,7 +895,7 @@ font-weight: normal;
 margin-bottom: 0px;
 margin-top: 0px;
 padding: 12px 10px 12px 10px;
-background: #0275d8;}
+background: #009688;}
 .sidebar ul{list-style-type:none;list-style:none;margin:0px;padding:0px;}
 .sidebar ul li{
 margin:0 0 4px;
