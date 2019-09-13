@@ -222,7 +222,7 @@
 </b:if>
 
 
-&lt;!-- <b:skin><![CDATA[
+<b:skin><![CDATA[
 
 
 body#layout #outer-wrapper{width:880px;background-color:transparent;overflow:visible;}
@@ -237,14 +237,14 @@ body#layout .header-logo {width:40%;float:left;margin-top:2px;overflow:visible;}
 body#layout .header-AdSense {width:60%;float:left;margin-top:2px;overflow:visible;}
 
 body#layout #gadget-horizontal:before {
-    content: "SECCION ADSENSE";
+    content: "SECTION ADSENSE";
     padding: 0 0 26px;
     display: block;
     margin-top: 33px;
 }
 
 body#layout #gadget-responsive:before {
-    content: "SECCION POPULAR POST";
+    content: "SECTION POPULAR POST";
     padding: 0 0 26px;
     display: block;
     margin-top: 33px;
@@ -254,7 +254,7 @@ body#layout #main-wrapper {width:62%;float:left;margin-top:2px;overflow:visible;
 body#layout #sidebar-wrapper {width:36%;float:left;margin-top:2px;margin-left:10px;overflow:visible;}
 
 body#layout #sidebar-wrapper:before {
-    content: "SECCION SIDEBAR";
+    content: "SECTION SIDEBAR";
     padding: 0 0 26px;
     display: block;
     margin-top: 33px;
@@ -332,7 +332,7 @@ a img{border:0}
     position: relative;
     padding: 10px 0;
     margin-top: 59px;
-    background: blueviolet;
+    background: #FF5252;
 }
 
 
@@ -356,7 +356,7 @@ a img{border:0}
   padding:0;
   color:#212121;
   font-weight:400;
-  background-color:#6731B6;
+  background-color:#FF5252;
   position:fixed;
   top:0;
   left:0;
@@ -382,15 +382,15 @@ audio, canvas, progress, video { display: inline-block; vertical-align: baseline
 }
 
 body { font-family: &#39;Open Sans&#39;sans-serif; color: rgba(0,0,0,0.87); font-size: 12px; }
-/* Ayudadeblogger texts */
+/* Hendz custom text*/
 a:link {
-    color: green;
+    color: teal;
 text-decoration:none;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: teal;
 }
 
 /* mouse over link */
@@ -424,32 +424,29 @@ p.lowercase {
 p.capitalize {
     text-transform: capitalize;
 }
-.text-fondo-blue {
+.background-text-blue {
     background-color: blue;
 }
-.text-fondo-green {
-    background-color: green;
-}
-.text-fondo-yellow {
-    background-color: yellow;
-}
-.text-fondo-lightblue {
-    background-color: lightblue;
-}
-.text-fondo-red {
-    background-color: red;
-}
-.text-fondo-teal {
+.background-text-teal {
     background-color: teal;
 }
-.text-fondo-gris {
+.background-text-yellow {
+    background-color: yellow;
+}
+.background-text-lightblue {
+    background-color: lightblue;
+}
+.background-text-red {
+    background-color: red;
+}
+.background-text-white {
     background-color: #eeeeee;
 }
 .text-color-blue {
     color: blue;
 }
-.text-color-green {
-    color: green;
+.text-color-teal {
+    color: teal;
 }
 .text-color-yellow {
     color: yellow;
@@ -466,7 +463,7 @@ p.capitalize {
 .d{
     color: white;
 }
-/* End Ayudadeblogger texts estilos */
+/* End Hendz custom text */
 
 
 a img{border-width:0}
@@ -514,7 +511,7 @@ background-color: #FFF;
     box-shadow: 0 1px 1.5px 0 rgba(0,0,0,.12), 0 1px 1px 0 rgba(0,0,0,.24);
     width: 50px;
     height: 50px;
-    border-radius: 100px;
+    border-radius: 50%;
     border: none;
     outline: 0;
     background: #4285f4;
@@ -1601,15 +1598,15 @@ background: ;
 			border-color: #5bc7fd;
 		}
 		
-	/* Green
+	/* teal
 	----------------*/
-	.ayudadeblogger-menu.clr-green {
-		background: #6731B6;
+	.ayudadeblogger-menu.clr-teal {
+		background: #FF5252;
 	}
 
-		.ayudadeblogger-menu.clr-green ul ul li:hover &gt; a,
-		.ayudadeblogger-menu.clr-green ul ul li.current &gt; a {
-			border-color: #6731B6;
+		.ayudadeblogger-menu.clr-teal ul ul li:hover &gt; a,
+		.ayudadeblogger-menu.clr-teal ul ul li.current &gt; a {
+			border-color: #FF5252;
 		}
 
 	/* Orange
@@ -1864,9 +1861,9 @@ height: 60px;
 		background: #5bc7fd;
 	}
 
-	/* Green
+	/* teal
 	----------------*/
-	.ayudadeblogger-menu.clr-green {
+	.ayudadeblogger-menu.clr-teal {
 		background: #000000;
 	}
 
@@ -2659,7 +2656,7 @@ td.tr-caption{font-size:87%}
 		<label class='ayudadeblogger-menu-button' for='mobile-nav'>Menu</label>
 		<input class='ayudadeblogger-menu-button' id='mobile-nav' name='mobile-nav' type='checkbox'/>
   
-		<div class='ayudadeblogger-menu pos-fixed clr-green'>
+		<div class='ayudadeblogger-menu pos-fixed clr-teal'>
 
 			<ul class='wrapper'>
 
@@ -3787,7 +3784,7 @@ data-ad-slot=&quot;2222242222&quot;&gt;
 <b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 <b:if cond='data:blog.pageType != &quot;item&quot;'>
 <center>
-<a class='readmore btn-floating btn-large waves-effect waves-light green' expr:href='data:post.url'><i class='fa fa-chevron-right bg-s'/></a></center>
+<a class='readmore btn-floating btn-large waves-effect waves-light teal' expr:href='data:post.url'><i class='fa fa-chevron-right bg-s'/></a></center>
 
 
 <strong><h1 class='post-title entry-title' itemprop='name headline'>
