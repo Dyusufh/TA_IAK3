@@ -661,24 +661,6 @@ body,html{overflow:hidden;margin:0;padding:0;width:100%;min-height:100vh;}body{b
      </b:widget>
    </b:section>
 <b:section class='header-right section' id='header-right' maxwidgets='1' showaddelement='yes'>
-  <b:widget id='HTML97' locked='false' title='' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>&lt;div class=&#39;postabove&#39;&gt;
-&lt;amp-img alt=&#39;Wrapper&#39; height=&#39;90&#39; layout=&#39;responsive&#39; src=&#39;https://3.bp.blogspot.com/-1EE61Dz-Sek/WbmHjmAjH_I/AAAAAAAANvI/kgypKsb_g4481KQTyH0SeLQPPu6KfK3QQCLcBGAs/s1600/infiniteamp2.png&#39; title=&#39;Wrapper&#39; width=&#39;728&#39;/&gt;
-&lt;/amp-img&gt;&lt;/div&gt;</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <!--
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  -->
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-  </b:widget>
 </b:section>
 </div>
 <div class='clear'/>
@@ -729,22 +711,6 @@ body,html{overflow:hidden;margin:0;padding:0;width:100%;min-height:100vh;}body{b
 </nav>
   <div id='content-wrapper' itemscope='itemscope' itemtype='http://schema.org/Blog' role='main'>
   <b:section class='banner section' id='banner' maxwidgets='1' showaddelement='yes'>
-    <b:widget id='HTML96' locked='false' title='' type='HTML' version='1'>
-      <b:widget-settings>
-        <b:widget-setting name='content'>&lt;div class=&#39;postabove&#39;&gt;
-&lt;amp-img alt=&#39;Wrapper&#39; height=&#39;90&#39; layout=&#39;responsive&#39; src=&#39;https://3.bp.blogspot.com/-d7HX0THXD88/WbmNAZp4zZI/AAAAAAAANvs/MyS_9lSQ__ARgMra-qkDvkmK-aYVuJTtQCLcBGAs/s1600/infiniteamp3.png&#39; title=&#39;Wrapper&#39; width=&#39;970&#39;/&gt;
-&lt;/amp-img&gt;&lt;/div&gt;</b:widget-setting>
-      </b:widget-settings>
-      <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-    </b:widget>
   </b:section>
     <div id='main-wrapper'>
       <b:section class='main' id='main' showaddelement='no'>
@@ -1349,25 +1315,6 @@ body,html{overflow:hidden;margin:0;padding:0;width:100%;min-height:100vh;}body{b
 	</div>
 <div id='sidebar-wrapper' itemscope='itemscope' itemtype='http://schema.org/WPSideBar'>
     <b:section class='sidebar top' id='sidebar top' preferred='yes'>
-      <b:widget id='HTML1' locked='false' title='' type='HTML' version='1'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>
-          <!--
-          &lt;amp-ad width=&#39;300&#39; height=&#39;250&#39; type=&#39;sidebar&#39; class=&#39;iklandong&#39;&gt;
-&lt;/amp-ad&gt;
--->
-          </b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-      </b:widget>
     </b:section>
 <div id='floatside'>
     <b:section class='sidebar' id='sidebar' preferred='yes'>
@@ -1560,22 +1507,6 @@ body,html{overflow:hidden;margin:0;padding:0;width:100%;min-height:100vh;}body{b
 </div>
 <div class='clear'/>
 <b:section class='banner2 section' id='banner2' maxwidgets='1' showaddelement='yes'>
-  <b:widget id='HTML98' locked='false' title='' type='HTML' version='1'>
-    <b:widget-settings>
-      <b:widget-setting name='content'>&lt;div class=&#39;postabove&#39;&gt;
-&lt;amp-img alt=&#39;Wrapper&#39; height=&#39;90&#39; layout=&#39;responsive&#39; src=&#39;https://3.bp.blogspot.com/-d7HX0THXD88/WbmNAZp4zZI/AAAAAAAANvs/MyS_9lSQ__ARgMra-qkDvkmK-aYVuJTtQCLcBGAs/s1600/infiniteamp3.png&#39; title=&#39;Wrapper&#39; width=&#39;970&#39;/&gt;
-&lt;/amp-img&gt;&lt;/div&gt;</b:widget-setting>
-    </b:widget-settings>
-    <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
-</b:includable>
-  </b:widget>
 </b:section>
 <footer id='footer-wrapper' itemscope='itemscope' itemtype='http://schema.org/WPFooter'>
 <div class='footer'>
