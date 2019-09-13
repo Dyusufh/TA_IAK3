@@ -92,41 +92,19 @@
 <meta content='USER-TWITTER' name='twitter:site'/>
 <meta content='USER-TWITTER' name='twitter:creator'/>
 &lt;!-- <b:skin><![CDATA[/*
-Theme Name       : Simple Infinite 
+Theme Name       : hendzUP 
 Theme Published  : September 2019
 Theme Base Color : Living Coral
-Theme Style      : Disqus Comment
 Theme Designer   : Hendz
 Designer         : ahmad.suhae@gmail.com
 Thanks to        : All supported and www.arlinadzgn.com
-Theme License    : This free Blogger template is licensed under the Creative Commons Attribution 4.0 License, which permits both personal and commercial use.
+Theme License    : currently none
 */
 /* CSS Reset */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,amp-img,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
 /* HTML5 */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{background:transparent;}table{border-collapse:collapse;border-spacing:0;}
-/* Body Layout */
-body#layout ul,#layout ul {display:none;}
-body#layout #outer-wrapper, body#layout .post-inner, body#layout .sidebar, body#layout .sidebar-two {padding:0;}
-body#layout #wrapper, body#layout .post-inner, body#layout .sidebar-inner {padding:0;}
-body#layout .header-wrapper {margin-top:0;}
-body#layout #header {min-height:0px;width:100%;}
-body#layout #header2 {width:30%;float:left;}
-body#layout #header-right {width:60%;float:right;}
-#layout,#layout .widget-content,#layout .add_widget {border:none;}
-body#layout .add_widget {border:1px solid #ddd;}
-#layout .add_widget a {color:#333;}
-#layout #header{min-height:0px;width:100%;margin:10px 0 0 0;}
-#layout #footer-wrapper .footer-column{width:33.33%;float:left}
-#layout #footer-wrapper #column1,#layout #footer-wrapper #column2{margin:0}
-#layout #main-wrapper{width:70%;float:left}
-#layout #sidebar-wrapper{width:30%;left:0;padding:0;float:right}
-#layout .draggable-widget .widget-wrap2 {background:#c1cfd9;}
-#layout #banner,#layout #banner2 {background-color:#444;padding:20px 0;margin-bottom:20px;}
-#layout #banner .widget,#layout #banner2 .widget{width:80%;margin:5px auto;overflow:hidden;float:none}
-#layout #banner .add_widget,#layout #banner2 .add_widget{width:80%;margin:5px auto;overflow:hidden;float:none}
-#footer-adwidget .footer-widget {width:31.7%;float:left;margin-left:10px;}
-#footer-wrapper {overflow:hidden;margin:0 auto 20px auto;max-width:970px;padding:15px 0 0;}
+/* Deleted Body Layout placed here */
 ]]></b:skin>
 <style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate='amp-boilerplate'>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 <style amp-custom='amp-custom'>
