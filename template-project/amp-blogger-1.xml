@@ -669,9 +669,11 @@ body,html{overflow:hidden;margin:0;padding:0;width:100%;min-height:100vh;}body{b
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
+  <!--
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
   </b:if>
+  -->
   <div class='widget-content'>
     <data:content/>
   </div>
